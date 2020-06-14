@@ -12,6 +12,7 @@ namespace MyFirstProgram
         static void Main()
         {
             int s = 0;
+            Console.WriteLine("Please enter the number:");
             string n = Console.ReadLine();
             int x = n.Length;
             if (x > 0)
@@ -26,8 +27,9 @@ namespace MyFirstProgram
             }
             else
             {
-                Console.WriteLine("Atleast 1 number is essential.");
+                Console.WriteLine("At least 1 digit is essential.");
             }
+            Console.ReadLine();
         }
     }
 }
